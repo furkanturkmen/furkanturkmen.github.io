@@ -1,0 +1,37 @@
+/*ul li.hidden-shown {
+  width: 25px;
+  overflow: hidden;
+  transition: width 1s;
+}
+
+ul li.hidden-shown:hover {
+  width: 100%;
+}*/
+html, body{
+	font-family: 'VT323', monospace;
+	font-size: 100%;
+}
+p{
+	font-weight: normal;
+}
+span.spoiler {
+	text-shadow: 0 0 8px #000;
+	color: rgba(255,255,255,0);
+}
+span.spoiler { 
+	text-shadow: 0 0 8px #000;
+	color: rgba(255,255,255,0); 
+	filter: DXImageTransform.Microsoft.Blur(pixelradius=2);
+	zoom: 1;
+}span.spoiler {
+	text-shadow: 0 0 8px #000;
+	color: rgba(255,255,255,0);
+	filter: DXImageTransform.Microsoft.Blur(pixelradius=2);
+	zoom: 1;
+	pause-before: 3s;
+}
+
+hr.content{
+	margin-top: 5%;
+	margin-bottom:  5%;
+}
